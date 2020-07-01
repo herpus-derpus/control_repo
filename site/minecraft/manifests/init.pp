@@ -3,7 +3,7 @@ class minecraft (
   $install_dir = '/opt/minecraft'
 ){
 
-  file {"${url}":
+  file {"${install_dir}":
     ensure => directory,
   }
 
